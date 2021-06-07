@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bgColor"
+    android:layout_height="match_parent"
+    tools:context=".viewPager3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Aplikasi ini mampu memantu anda untuk mempermudah menigingat semua agenda anda yang akan datang" />
+
+        <Button
+            android:id="@+id/btnKeProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="pindahProfile"
+            android:layout_alignParentBottom="true"
+            android:text="Selanjutnya"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>
